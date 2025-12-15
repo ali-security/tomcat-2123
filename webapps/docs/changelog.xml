@@ -108,6 +108,10 @@
   <subsection name="Catalina">
     <changelog>
       <fix>
+        Fix handling of <code>QSA</code> and <code>QSD</code> flags in
+        <code>RewriteValve</code>. (markt)
+      </fix>
+      <fix>
         Correct JPMS and OSGi meta-data for <code>tomcat-enbed-core.jar</code>
         by removing reference to <code>org.apache.catalina.ssi</code> package
         that is no longer included in the JAR. Based on pull request
